@@ -60,7 +60,7 @@ public class AppleRealtime {
 //	            </a>
 //            </li>		
 
-			// 如果不想要更新的資料 test
+			// 如果不想要更新的資料 test1
 			if ( news.select("h1 > font:matchesOwn(【更新】)").size() > 0 ) continue; 
 			
 			// 取出年月日時分
