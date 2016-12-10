@@ -24,9 +24,9 @@ public class FacebookExam {
 		// 遠端資料路徑
 
 		String uri = 
-				"https://graph.facebook.com/v2.6"
-				+ "/search?q="
-				+ "&access_token=";
+				"https://graph.facebook.com/v2.8"
+				+ "crazyck101/posts?fields=id,link,message,created_time,reactions.limit(0).summary(total_count)&since=1480849200"
+				+ "&access_token=EAACEdEose0cBACSc7UqUvcuNf4VZBE0cqZCiAIHCETPOk9qAkhfiweSoo9j5theVGfgbcJ3XZAkfqI3vAB8ITsuViwKkyWXtOWxiSU4vuugbqZB3ZBOe5hY7apEa3YOlESAEngINRSLP2o5LMZBFzTKd7IpiQxUIWwhZCWCCOKT9gZDZD";
 
 
 		Elements elems =
